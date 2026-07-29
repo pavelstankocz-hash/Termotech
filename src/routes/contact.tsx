@@ -111,6 +111,20 @@ function ContactPage() {
           </div>
           <div>
             <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+              {t("contact.type")}
+            </label>
+            <select
+              required
+              className="mt-2 w-full rounded-md border border-input bg-background px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary appearance-none"
+            >
+              <option value="">{t("contact.type")}</option>
+              <option value="sales">{t("contact.type.sales")}</option>
+              <option value="support">{t("contact.type.support")}</option>
+              <option value="partner">{t("contact.type.partner")}</option>
+            </select>
+          </div>
+          <div>
+            <label className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
               {t("contact.message")}
             </label>
             <textarea
@@ -126,6 +140,20 @@ function ContactPage() {
             {sent ? "✓" : t("contact.send")}
           </button>
         </form>
+      </section>
+
+      <section className="container-page pb-20">
+        <h2 className="text-2xl font-bold mb-6">{t("contact.mapTitle")}</h2>
+        <div className="rounded-xl border border-border overflow-hidden bg-card aspect-[16/9] md:aspect-[21/9]">
+          <iframe
+            title="Thermotech GROUPE Prague"
+            src="https://maps.google.com/maps?q=Varšavská+715,+120+00+Praha,+Czechia&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            className="w-full h-full border-0"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+        </div>
       </section>
     </>
   );

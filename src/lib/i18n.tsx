@@ -84,6 +84,10 @@ const en: Dict = {
   "contact.name": "Name",
   "contact.email": "E-mail",
   "contact.message": "Message",
+  "contact.type": "Inquiry type",
+  "contact.type.sales": "Sales inquiry",
+  "contact.type.support": "Technical support",
+  "contact.type.partner": "Partnership",
   "contact.send": "Send message",
   "contact.company": "Thermotech GROUPE s.r.o.",
   "contact.addrLabel": "Headquarters",
@@ -94,6 +98,7 @@ const en: Dict = {
   "contact.ico": "05336945",
   "contact.dic": "CZ05336945",
   "contact.mail": "info@thermotech.cz",
+  "contact.mapTitle": "Find us",
 
 
   "footer.rights": "All rights reserved.",
@@ -172,6 +177,10 @@ const cs: Dict = {
   "contact.name": "Jméno",
   "contact.email": "E-mail",
   "contact.message": "Zpráva",
+  "contact.type": "Typ poptávky",
+  "contact.type.sales": "Obchodní poptávka",
+  "contact.type.support": "Technická podpora",
+  "contact.type.partner": "Partnerství",
   "contact.send": "Odeslat zprávu",
   "contact.company": "Thermotech GROUPE s.r.o.",
   "contact.addrLabel": "Sídlo firmy",
@@ -182,6 +191,7 @@ const cs: Dict = {
   "contact.ico": "05336945",
   "contact.dic": "CZ05336945",
   "contact.mail": "info@thermotech.cz",
+  "contact.mapTitle": "Kde nás najdete",
 
 
   "footer.rights": "Všechna práva vyhrazena.",
@@ -260,6 +270,10 @@ const de: Dict = {
   "contact.name": "Name",
   "contact.email": "E-Mail",
   "contact.message": "Nachricht",
+  "contact.type": "Anfragentyp",
+  "contact.type.sales": "Vertriebsanfrage",
+  "contact.type.support": "Technischer Support",
+  "contact.type.partner": "Partnerschaft",
   "contact.send": "Nachricht senden",
   "contact.company": "Thermotech GROUPE s.r.o.",
   "contact.addrLabel": "Hauptsitz",
@@ -270,6 +284,7 @@ const de: Dict = {
   "contact.ico": "05336945",
   "contact.dic": "CZ05336945",
   "contact.mail": "info@thermotech.cz",
+  "contact.mapTitle": "So finden Sie uns",
 
 
   "footer.rights": "Alle Rechte vorbehalten.",
@@ -348,6 +363,10 @@ const es: Dict = {
   "contact.name": "Nombre",
   "contact.email": "Correo electrónico",
   "contact.message": "Mensaje",
+  "contact.type": "Tipo de consulta",
+  "contact.type.sales": "Consulta comercial",
+  "contact.type.support": "Soporte técnico",
+  "contact.type.partner": "Colaboración",
   "contact.send": "Enviar mensaje",
   "contact.company": "Thermotech GROUPE s.r.o.",
   "contact.addrLabel": "Sede social",
@@ -358,6 +377,7 @@ const es: Dict = {
   "contact.ico": "05336945",
   "contact.dic": "CZ05336945",
   "contact.mail": "info@thermotech.cz",
+  "contact.mapTitle": "Dónde encontrarnos",
 
 
   "footer.rights": "Todos los derechos reservados.",
@@ -436,6 +456,10 @@ const it: Dict = {
   "contact.name": "Nome",
   "contact.email": "E-mail",
   "contact.message": "Messaggio",
+  "contact.type": "Tipo di richiesta",
+  "contact.type.sales": "Richiesta commerciale",
+  "contact.type.support": "Supporto tecnico",
+  "contact.type.partner": "Partnership",
   "contact.send": "Invia messaggio",
   "contact.company": "Thermotech GROUPE s.r.o.",
   "contact.addrLabel": "Sede legale",
@@ -446,6 +470,7 @@ const it: Dict = {
   "contact.ico": "05336945",
   "contact.dic": "CZ05336945",
   "contact.mail": "info@thermotech.cz",
+  "contact.mapTitle": "Dove trovarci",
 
 
   "footer.rights": "Tutti i diritti riservati.",
